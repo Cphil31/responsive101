@@ -1,0 +1,36 @@
+
+@media screen and (max-width:300px)  {
+	.color{
+		display:block;
+		background-color:blue;
+	}
+}
+@media screen and (min-width: 301px) and (max-width: 600px)  {
+	.color{
+		display:block;
+		background-color:green;
+	}
+}
+@media screen and (min-width: 601px)  {
+	.color{
+		display:block;
+		background-color:red;
+	}
+}
+
+@media screen and (min-width:800px){
+	
+	button {display:none;}
+	ul#menu_horizontal li { 
+		display : inline;
+		padding : 0 0.5em; 
+	}
+}
+
+@media screen and (max-width:799px){
+	button{display:block;}
+	ul#menu_horizontal li { 
+		list-style-type : none;
+		display:none;
+	}
+}
